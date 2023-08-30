@@ -298,7 +298,6 @@
 .about__text {
   grid-column: 2/span 1;
   justify-self: flex-end;
-  justify-self: flex-end;
   align-self: flex-end;
   color: #000;
   font-weight: 400;
