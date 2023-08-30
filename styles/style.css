@@ -44,9 +44,6 @@
   flex-shrink: 0;
   width: 148px;
   height: 105px;
-  background-image: url(../images/logo-black.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 .header__address {
@@ -197,14 +194,14 @@
 
 .card {
   display: flex;
-  flex-wrap: wrap;
   width: 430px;
   height: 450px;
 }
 
-.card__title {
-  margin: 50px 40px 0px;
-  color: #FFF;
+.card__title-film,
+.card__title-book,
+.card__title-picture{
+  color: #fff;
   font-family: Raleway;
   font-weight: 700;
   font-size: 22px;
@@ -212,6 +209,18 @@
   line-height: 120%;
   text-decoration-line: underline;
   text-transform: uppercase;
+}
+
+.card__title-film {
+  margin: 50px 40px 202px;
+}
+
+.card__title-book {
+  margin: 50px 40px 30px;
+}
+
+.card__title-picture {
+  margin: 50px 40px 80px;
 }
 
 .card__text {
