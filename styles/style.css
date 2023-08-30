@@ -193,7 +193,6 @@
   flex-shrink: 0;
   width: 430px;
   height: 450px;
-  height: 100%;
 }
 
 .card {
@@ -301,9 +300,7 @@
   justify-self: flex-end;
   justify-self: flex-end;
   align-self: flex-end;
-  align-self: flex-end;
   color: #000;
-  font-family: Raleway;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
@@ -328,7 +325,7 @@
 }
 
 .footer__links-list {
-  color: #000;;
+  color: #000;
   font-family: Raleway;
   font-weight: 400;
   font-size: 18px;
