@@ -5,7 +5,6 @@
   justify-content: space-between;
   align-items: center;
   width: 1340px;
-  height: 109px;
   margin: 92px 50px;
 }
 
@@ -30,7 +29,7 @@
 }
 
 .header__link {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: normal;
@@ -56,18 +55,19 @@
 }
 
 .address-item {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
+  line-height: 24.3px;
 }
 
 .cover {
   position: relative;
   z-index: 0;
   flex-shrink: 0;
-  width: 100%;
   height: 757px;
+  min-height: 757px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -97,6 +97,10 @@
   line-height: 110%;
   letter-spacing: 30px;
   text-transform: uppercase;
+}
+
+.cover__title-text {
+  font-family: Raleway, sans-serif;
 }
 
 .letter-spacing-extended {
@@ -134,7 +138,7 @@
   align-self: center;
   width: 633px;
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
@@ -152,7 +156,6 @@
   border: 1px solid #fff;
   padding: 12px 32px;
   color: #fff;
-  font-family: Raleway;
   font-weight: 400;
   font-size: 22px;
   line-height: normal;
@@ -161,17 +164,20 @@
   white-space: nowrap;
 }
 
+.bet-button_text {
+  font-family: Raleway, sans-serif;
+}
+
 .lots {
   flex-shrink: 0;
   width: 1340px;
-  height: 579px;
   margin: 180px 50px;
 }
 
 .lots__heading {
   margin: 0 1179px 27px 40px;
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 40px;
   font-style: normal;
@@ -189,20 +195,17 @@
 .card-link {
   flex-shrink: 0;
   width: 430px;
-  height: 450px;
 }
 
 .card {
   display: flex;
   width: 430px;
-  height: 450px;
+  min-height: 450px;
 }
 
-.card__title-film,
-.card__title-book,
-.card__title-picture {
+.cards-general-options {
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 22px;
   font-style: normal;
@@ -226,39 +229,36 @@
 .card__text {
   margin: 0 40px 50px;
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
   line-height: 120%;
 }
 
-.card_type_film {
-  background-image: url(../images/card-lot-01.jpg);
+.card__background-image {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 
 .lots__look-more-link {
   margin-bottom: 2px;
   margin-left: 40px;
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
@@ -268,7 +268,6 @@
 .about {
   flex-shrink: 0;
   width: 1340px;
-  height: 487px;
   margin: 0 50px 180px;
 }
 
@@ -296,7 +295,7 @@
 .about__title {
   align-self: center;
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 40px;
   font-style: normal;
@@ -315,6 +314,10 @@
   line-height: normal;
 }
 
+.about__text-part {
+  font-family: Raleway, sans-serif;
+}
+
 .margin-bottom {
   margin-bottom: 25px;
 }
@@ -323,7 +326,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 1340px;
-  height: 97px;
   margin: 0 50px 90px;
 }
 
@@ -334,13 +336,16 @@
 
 .footer__links-list {
   color: #000;
-  font-family: Raleway;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
   line-height: normal;
   text-align: center;
   list-style: none;
+}
+
+.footer__link {
+  font-family: Raleway, sans-serif;
 }
 
 .footer__link_active {
@@ -353,28 +358,28 @@
   grid-column-start: 3;
   justify-self: flex-end;
   width: 240px;
-  height: 48px;
   list-style: none;
+}
 
+.footer__social-icon {
+  height: 48px;
+  background-repeat: no-repeat;
 }
 
 .footer__social-icon-yt {
   grid-column-start: 1;
   background-image: url(../images/yt.svg);
-  background-repeat: no-repeat;
   background-position: left center;
 }
 
 .footer__social-icon-vk {
   grid-column-start: 2;
   background-image: url(../images/vk.svg);
-  background-repeat: no-repeat;
   background-position: center center;
 }
 
 .footer__social-icon-pinterest {
   grid-column-start: 3;
   background-image: url(../images/pinterest.svg);
-  background-repeat: no-repeat;
   background-position: right center;
 }
